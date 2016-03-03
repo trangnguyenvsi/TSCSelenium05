@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeSuite;
 public class TestBase {
 	public static WebDriver driver;
 	WebDriverWait wait;
-	String baseURL = "http://newtours.demoaut.com";
+	protected static String baseURL = "http://newtours.demoaut.com";
 	
 	@BeforeSuite
 	public void getBrowser() {
