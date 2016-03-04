@@ -1,6 +1,5 @@
 package com.vsii.tsc.Selenium05.anhptq.pages;
 
-import com.vsii.tsc.TSCSelenium05.anhptq.PageFactories.Common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
