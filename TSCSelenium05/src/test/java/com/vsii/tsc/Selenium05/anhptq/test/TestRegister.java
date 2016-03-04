@@ -1,4 +1,4 @@
-package com.vsii.tsc.TSCSelenium05.anhptq.Test;
+package com.vsii.tsc.Selenium05.anhptq.test;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -6,9 +6,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.vsii.tsc.TSCSelenium05.anhptq.PageFactories.Common;
-import com.vsii.tsc.TSCSelenium05.anhptq.PageFactories.Login;
-import com.vsii.tsc.TSCSelenium05.anhptq.PageFactories.Register;
+import com.vsii.tsc.Selenium05.anhptq.pages.Common;
+import com.vsii.tsc.Selenium05.anhptq.pages.Login;
+import com.vsii.tsc.Selenium05.anhptq.pages.Register;
 import com.vsii.tsc.TSCSelenium05.khaidq.PageFactories.ModuleLogin;
 import com.vsii.tsc.TSCSelenium05.khaidq.PageFactories.ModuleReg;
 

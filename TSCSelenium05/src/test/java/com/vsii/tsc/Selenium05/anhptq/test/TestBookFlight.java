@@ -1,4 +1,4 @@
-package com.vsii.tsc.TSCSelenium05.anhptq.Test;
+package com.vsii.tsc.Selenium05.anhptq.test;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -6,11 +6,13 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.vsii.tsc.TSCSelenium05.anhptq.PageFactories.Common;
-import com.vsii.tsc.TSCSelenium05.anhptq.PageFactories.BookFlight;
-import com.vsii.tsc.TSCSelenium05.anhptq.PageFactories.FindFlight;
-import com.vsii.tsc.TSCSelenium05.anhptq.PageFactories.Login;
-import com.vsii.tsc.TSCSelenium05.anhptq.PageFactories.SearchFlight;
+import com.vsii.tsc.Selenium05.anhptq.pages.BookFlight;
+import com.vsii.tsc.Selenium05.anhptq.pages.Common;
+import com.vsii.tsc.Selenium05.anhptq.pages.FindFlight;
+import com.vsii.tsc.Selenium05.anhptq.pages.Login;
+import com.vsii.tsc.Selenium05.anhptq.pages.SearchFlight;
+
+
 
 public class TestBookFlight {
 
